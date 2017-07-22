@@ -4,7 +4,7 @@ class Footer extends React.Component{
   render(){
     return(
       <footer>
-        <h1>这是底部</h1>
+        <h1>这是底部 </h1>
       </footer>
     )
   }
