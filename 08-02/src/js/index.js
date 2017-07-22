@@ -12,7 +12,7 @@ class Index extends React.Component {
     return (
       <div>
         <Header/>
-        <Body userId="父组件传递过来的属性" console={this.testProps.bind(this)}/>
+        <Body userId="父组件传递过来的属性" testProps={this.testProps.bind(this)}/>
         <Footer/>
       </div>
     )
